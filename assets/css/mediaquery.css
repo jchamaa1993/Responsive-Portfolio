@@ -1,0 +1,202 @@
+@media (min-width:768px) and (max-width: 980px) {
+	body {
+		width:980px;
+	}
+
+	h1 {
+		margin-left:125px;
+		width: 275px;
+	}
+
+	#bioMainContent, #portfolioMainContent, #contactMainContent {
+	width: 357px;
+	margin-left:125px;
+	padding-left:30px;
+	padding-right:30px;
+
+}
+	#sideBar {
+		float: left;
+		margin-left: 40px;
+	}
+	
+	#myPhoto, .portImage {
+		width:100%;
+		height:270px;
+
+	}
+
+	#contactForm, .textInput{
+		
+	}
+
+
+
+	.imageDivRight, .imageDivLeft {
+		width:100%;
+		float:left;
+		margin:0px 0px 57px 0px
+	}
+	.aboutMeText {
+		clear: both;
+	}
+
+	#largeDiv {
+		width:820px;
+		height:40px;
+	}
+}
+
+/*For screen width of 768 px and less.*/
+@media screen and (min-width:640px) and (max-width: 768px) {
+	body {
+		width:768px;
+	}
+	h1 {
+		margin-left:20px;
+	}
+
+	#bioMainContent, #portfolioMainContent, #contactMainContent {
+	width: 90%;
+	margin-left:2%;
+	margin-right: 2%;
+	padding-left:2.5%;
+	padding-right:2.5%;
+
+}
+	#sideBar {
+		float: left;
+		height:85;
+		width: 90%;
+		margin-left:2%;
+		margin-right: 2%;
+		padding-left:2.5%;
+		padding-right:2.5%;
+		margin-bottom: 40px;
+		margin-top: 0px;
+	}
+	
+	h3 {
+		text-align: left;
+	}
+	#myPhoto {
+		width:50%;
+		height:250px;
+		float: left;
+	}
+	.portImage {
+		width: 100%;
+	}
+
+	#contactForm, .textInput{
+		width:350px;
+	}
+
+	.imageDivRight, .imageDivLeft {
+		width:45%;
+		float:left;
+		margin:0px 2.5% 57px 2.5%;
+	}
+	.aboutMeText {
+		float: none;
+	}
+
+	#largeDiv {
+		width:100%;
+		margin:0px;
+	}
+}
+
+/*For screen width of 768 px and less.*/
+@media screen and (max-width: 640px) {
+	h1 {
+		width:100%;
+		margin:0px 0px 0px 0px;
+	}
+
+	#bioMainContent, #portfolioMainContent, #contactMainContent {
+	width: 85%;
+	margin:30px 2.4% 35px 2.4%;
+	padding-left:5%;
+	padding-right:5%;
+
+}
+	#sideBar {
+		float: left;
+		width:85%;
+		height:140px;
+		padding: 30px 5% 30px 5%;
+		margin:5px 2.4% 20px 2.5%;
+	}
+	
+	h3 {
+		text-align: left;
+	}
+	#myPhoto, .portImage {
+		width:100%;
+		height:400px;
+		float: left;
+	}
+
+	#contactForm, .textInput{
+		width:350px;
+	}
+
+	.imageDivRight, .imageDivLeft {
+		width:100%;
+		float:left;
+		margin:0px 0px 57px 0px
+	}
+	.aboutMeText {
+		float: left;
+	}
+
+	#largeDiv {
+		width:100%;
+		margin-left:0px;
+	}
+
+	#headerDiv {
+		height: 155px;
+	}
+	.list {
+	@media (min-width:640px) and (max-width: 768px) {
+		clear:right;
+		display:block;
+	}
+}
+	
+	li {
+		display: inline-block;
+	}
+	ul {
+		float: none;
+	}
+
+	#about {
+		padding-left: 5%;
+		padding-right: 0px;
+		margin-left: 5%;
+		margin-right:5%;
+		width: 13%;
+	}
+	#portfolio {
+		padding-left: 7.5%;
+		padding-right:0px;
+		margin-left: 5%;
+		margin-right:5%;
+		width: 13%;
+	}
+
+	#contact {
+		padding-left: 7.5%;
+		padding-right:5%;
+		margin-left: 5%;
+		margin-right:5%;
+		width: 13%;
+	}
+
+	.portfolioImageHeading {
+		top: 85%;
+	}
+}
