@@ -88,10 +88,7 @@
 		width: 100%;
 	}
 
-	#contactForm, .textInput{
-		width:350px;
-	}
-
+	
 	.imageDivRight, .imageDivLeft {
 		width:45%;
 		float:left;
@@ -138,9 +135,6 @@
 		float: left;
 	}
 
-	#contactForm, .textInput{
-		width:350px;
-	}
 
 	.imageDivRight, .imageDivLeft {
 		width:100%;
